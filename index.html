@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date in JA</title>
+    <script src="/dateProject.js" defer></script>
+    <script src="/dobProject.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <form>
+        <input name="input" placeholder="Enter the timestamp" type="number" />
+        <button type="submit">convert</button>
+      </form>
+      <div class="local">
+        <p>Local Format: <span></span></p>
+      </div>
+      <div class="utc">
+        <p>UTC Format: <span></span></p>
+      </div>
+
+      <div class="iso">
+        <p>ISO Format: <span></span></p>
+      </div>
+    </div>
+
+    <div class="dob">
+      <input class="user1" name="user1" placeholder="user1 DOB" type="text" />
+      VS
+      <input class="user2" name="user2" placeholder="user2 DOB" type="text" />
+      <button>Compare</button>
+    </div>
+  </body>
+  <script src="/date.js"></script>
+</html>
